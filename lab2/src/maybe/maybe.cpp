@@ -17,7 +17,6 @@ template <typename T> Maybe<T> Maybe<T>::Nothing() {
 }
 
 template <typename T>
-// template <typename U>
 Maybe<T> Maybe<T>::fmap(const function<T(T)> f) const {
   if (just)
     return Just(f(value));
