@@ -1,0 +1,8 @@
+.vscode
+
+# Nix
+.direnv
+result
+
+# CMake
+build
